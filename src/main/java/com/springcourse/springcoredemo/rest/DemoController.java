@@ -1,8 +1,10 @@
-package com.springcourse.springcoredemo;
+package com.springcourse.springcoredemo.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.springcourse.springcoredemo.common.Coach;
 
 @RestController
 
